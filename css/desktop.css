@@ -21,11 +21,11 @@ main {
 }
 .card-container-two .vehicle-buttom:hover {
    border: 2px solid var(--Very-light-gray);
-   background-color: var(--Bright-orange);
+   background-color: var(--Dark-cyan);
    color: var(--Very-light-gray);
 }
 .card-container-three .vehicle-buttom:hover {
    border: 2px solid var(--Very-light-gray);
-   background-color: var(--Bright-orange);
+   background-color: var(--very-dark-cyan);
    color: var(--Very-light-gray);
 }
