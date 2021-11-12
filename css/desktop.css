@@ -1,0 +1,24 @@
+.card-container-one {
+   border-radius: 7px 0px 0px 7px;
+}
+.card-container-two {
+   border-radius: 0px;
+}
+.card-container-three {
+   border-radius: 0px 7px 7px 0px;
+}
+.card-container-one .vehicle-buttom:hover {
+   border: 2px solid var(--Very-light-gray);
+   background-color: var(--Bright-orange);
+   color: var(--Very-light-gray);
+}
+.card-container-two .vehicle-buttom:hover {
+   border: 2px solid var(--Very-light-gray);
+   background-color: var(--Bright-orange);
+   color: var(--Very-light-gray);
+}
+.card-container-three .vehicle-buttom:hover {
+   border: 2px solid var(--Very-light-gray);
+   background-color: var(--Bright-orange);
+   color: var(--Very-light-gray);
+}

@@ -1,0 +1,107 @@
+:root {
+   --Bright-orange: hsl(31, 77%, 52%);
+   --Dark-cyan: hsl(184, 100%, 22%);
+   --Very-dark-cyan: hsl(179, 100%, 13%);
+   --Transparent-white: hsla(0, 0%, 100%, 0.75);
+   --Very-light-gray: hsl(0, 0%, 95%);
+}
+* {
+   box-sizing: 0;
+   margin: 0;
+   padding: 0;
+}
+html {
+   font-size: 62.5%;
+}
+main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 60px 0px;
+}
+.card-container-one {
+   width: 90vw;
+   max-width: 335px;
+   height: 430px;
+   background-color: var(--Bright-orange);
+   border-radius: 7px 7px 0px 0px;
+   
+}
+.card-container-two {
+   width: 90vw;
+   max-width: 335px;
+   height: 430px;
+   background-color: var(--Dark-cyan); 
+}
+.card-container-three {
+   width: 90vw;
+   max-width: 335px;
+   height: 430px;
+   background-color: var(--Very-dark-cyan);
+   border-radius: 0px 0px 7px 7px;  
+}
+.vehicle-icon {
+   display: inline-block;
+   width: 50px;
+   height: 31px;
+   margin: 35px 0px 0px 45px;
+   background-image: url(./Assets/icon-sedans.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.vehicle-title {
+   width: 80px;
+   font-family: 'Big Shoulders Display', cursive;
+   font-size: 3rem;
+   margin: 30px 45px;
+   color: var(--Very-light-gray);
+}
+.vehicle-description {
+   margin: 0px 0px 70px 45px;
+   font-size: 1.5rem;
+   font-family: 'Lexend Deca', sans-serif;
+   color: var(--Transparent-white);
+}
+.vehicle-buttom {
+   display: block;
+   width: 130px;
+   height: 30px;
+   border-radius: 50px;
+   font-size: 1.5rem;
+   font-family: 'Lexend Deca', sans-serif;
+   text-align: center;
+   padding: 10px 0px 0px;
+   text-decoration: none;
+   margin: 0px 45px;
+   background-color: var(--Very-light-gray);
+   color: var(--Bright-orange);
+   border: 2px solid var(--Very-light-gray);
+}
+.card-container-one .vehicle-buttom:active {
+   border: 2px solid var(--Very-light-gray);
+   background-color: var(--Bright-orange);
+   color: var(--Very-light-gray);
+}
+.card-container-two .vehicle-icon {
+   background-image: url(./Assets/icon-suvs.svg);
+}
+.card-container-two .vehicle-buttom {
+   color: var(--Dark-cyan);
+}
+.card-container-two .vehicle-buttom:active {
+   background-color: var(--Dark-cyan);
+   border: 2px solid var(--Very-light-gray);
+   color: var(--Very-light-gray);
+}
+.card-container-three .vehicle-icon {
+   background-image: url(./Assets/icon-luxury.svg);
+}
+.card-container-three .vehicle-buttom {
+   color: var(--Very-dark-cyan);
+}
+.card-container-three .vehicle-buttom:active {
+   background-color: var(--Very-dark-cyan);
+   border: 2px solid var(--Very-light-gray);
+   color: var(--Very-light-gray);
+}
