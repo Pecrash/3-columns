@@ -18,6 +18,7 @@ main {
    flex-wrap: wrap;
    justify-content: center;
    padding: 60px 0px;
+   background-color: var(--Very-light-gray);
 }
 .card-container-one {
    width: 90vw;
