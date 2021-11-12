@@ -1,110 +1,116 @@
 :root {
-   --Bright-orange: hsl(31, 77%, 52%);
-   --Dark-cyan: hsl(184, 100%, 22%);
-   --Very-dark-cyan: hsl(179, 100%, 13%);
-   --Transparent-white: hsla(0, 0%, 100%, 0.75);
-   --Very-light-gray: hsl(0, 0%, 95%);
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
 }
 * {
-   box-sizing: 0;
-   margin: 0;
-   padding: 0;
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
 }
 html {
-   font-size: 62.5%;
+  font-size: 62.5%;
 }
 main {
-   display: flex;
-   width: 100%;
-   height: 100%;
-   flex-wrap: wrap;
-   justify-content: center;
-   background-color: var(--Very-light-gray);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--Very-light-gray);
 }
 .card-container-one {
-   width: 90vw;
-   max-width: 335px;
-   height: 430px;
-   background-color: var(--Bright-orange);
-   border-radius: 7px 7px 0px 0px;
-   margin-top: 70px;
+  width: 90vw;
+  max-width: 335px;
+  height: 430px;
+  background-color: var(--Bright-orange);
+  border-radius: 7px 7px 0px 0px;
+  margin-top: 70px;
 }
 .card-container-two {
-   width: 90vw;
-   max-width: 335px;
-   height: 430px;
-   background-color: var(--Dark-cyan); 
+  width: 90vw;
+  max-width: 335px;
+  height: 430px;
+  background-color: var(--Dark-cyan);
 }
 .card-container-three {
-   width: 90vw;
-   max-width: 335px;
-   height: 430px;
-   background-color: var(--Very-dark-cyan);
-   border-radius: 0px 0px 7px 7px;
-   margin-bottom: 70px;
+  width: 90vw;
+  max-width: 335px;
+  height: 430px;
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0px 0px 7px 7px;
+  margin-bottom: 70px;
 }
 .vehicle-icon {
-   display: inline-block;
-   width: 50px;
-   height: 31px;
-   margin: 35px 0px 0px 45px;
-   background-image: url(./Assets/icon-sedans.svg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+  display: inline-block;
+  width: 50px;
+  height: 31px;
+  margin: 35px 0px 0px 45px;
+  background-image: url(./Assets/icon-sedans.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .vehicle-title {
-   width: 80px;
-   font-family: 'Big Shoulders Display', cursive;
-   font-size: 3rem;
-   margin: 30px 45px;
-   color: var(--Very-light-gray);
+  width: 80px;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3rem;
+  margin: 30px 45px;
+  color: var(--Very-light-gray);
 }
 .vehicle-description {
-   margin: 0px 0px 70px 45px;
-   font-size: 1.5rem;
-   font-family: 'Lexend Deca', sans-serif;
-   color: var(--Transparent-white);
+  margin: 0px 0px 70px 45px;
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--Transparent-white);
 }
 .vehicle-buttom {
-   display: block;
-   width: 130px;
-   height: 30px;
-   border-radius: 50px;
-   font-size: 1.5rem;
-   font-family: 'Lexend Deca', sans-serif;
-   text-align: center;
-   padding: 10px 0px 0px;
-   text-decoration: none;
-   margin: 0px 45px;
-   background-color: var(--Very-light-gray);
-   color: var(--Bright-orange);
-   border: 2px solid var(--Very-light-gray);
+  display: block;
+  width: 130px;
+  height: 30px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  padding: 10px 0px 0px;
+  text-decoration: none;
+  margin: 0px 45px;
+  background-color: var(--Very-light-gray);
+  color: var(--Bright-orange);
+  border: 2px solid var(--Very-light-gray);
 }
 .card-container-one .vehicle-buttom:active {
-   border: 2px solid var(--Very-light-gray);
-   background-color: var(--Bright-orange);
-   color: var(--Very-light-gray);
+  border: 2px solid var(--Very-light-gray);
+  background-color: var(--Bright-orange);
+  color: var(--Very-light-gray);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .card-container-two .vehicle-icon {
-   background-image: url(./Assets/icon-suvs.svg);
+  background-image: url(./Assets/icon-suvs.svg);
 }
 .card-container-two .vehicle-buttom {
-   color: var(--Dark-cyan);
+  color: var(--Dark-cyan);
 }
 .card-container-two .vehicle-buttom:active {
-   background-color: var(--Dark-cyan);
-   border: 2px solid var(--Very-light-gray);
-   color: var(--Very-light-gray);
+  background-color: var(--Dark-cyan);
+  border: 2px solid var(--Very-light-gray);
+  color: var(--Very-light-gray);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .card-container-three .vehicle-icon {
-   background-image: url(./Assets/icon-luxury.svg);
+  background-image: url(./Assets/icon-luxury.svg);
 }
 .card-container-three .vehicle-buttom {
-   color: var(--Very-dark-cyan);
+  color: var(--Very-dark-cyan);
 }
 .card-container-three .vehicle-buttom:active {
-   background-color: var(--Very-dark-cyan);
-   border: 2px solid var(--Very-light-gray);
-   color: var(--Very-light-gray);
+  background-color: var(--Very-dark-cyan);
+  border: 2px solid var(--Very-light-gray);
+  color: var(--Very-light-gray);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+/* -webkit-tap-highlight-color: rgba(0,0,0,0);
+ Esta linea la vamos a necesitar un chingo */
